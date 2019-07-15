@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Ita 15!</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://teamtreehouse.com/assets/favicon.ico">
+  <link rel="icon" href="http://teamtreehouse.com/assets/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
+  <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Lato|Skranji:700">
+  <script type="text/javascript" charset="utf-8" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/jquery.lightbox-0.5.min.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="content">
+      <h1>Ita 15!</h1>
+      
+      <div class="photos">
+        <ul class="clearfix">
+          <li><a href="images/photos/01.jpeg" rel="lightbox" ><img src="images/photos/01-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/02.jpeg" rel="lightbox" ><img src="images/photos/02-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/03.jpeg" rel="lightbox"><img src="images/photos/03-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/04.jpeg" rel="lightbox"><img src="images/photos/04-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/05.jpeg" rel="lightbox"><img src="images/photos/05-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/06.jpeg" rel="lightbox" ><img src="images/photos/06-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/07.jpeg" rel="lightbox"><img src="images/photos/07-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/08.jpeg" rel="lightbox" ><img src="images/photos/08-thumb.jpg" width="150" height="150"></a></li>
+          <li><a href="images/photos/09.jpeg" rel="lightbox" ><img src="images/photos/09-thumb.jpg" width="150" height="150"></a></li>
+        </ul>
+      </div>
+      
+     
+  </div>
+<script type="text/javascript">
+$(function(){
+  $('a[rel=lightbox]').lightBox({
+    containerResizeSpeed: 250,
+    fixedNavigation: true
+  });
+  $('a[rel=2ndlightbox]').lightBox({
+    overlayBgColor: '#fff',
+    overlayOpacity: 0.7
+  });
+});
+</script>
+</body>
+</html>
